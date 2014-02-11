@@ -8,9 +8,11 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+/db/my_database*
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore API key file
+/config/api_key.yaml
